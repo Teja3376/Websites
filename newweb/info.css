@@ -1,0 +1,85 @@
+body{
+    background: url('infobg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.info{
+    height: 90vh;
+    width: 99vw;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    color: white;
+    height: 500px;
+    width: 500px;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 5px white;
+    backdrop-filter: blur(10px);
+}
+.details h1{
+    margin-top: 10px;
+    font-size: 40px;
+}
+.cinfo{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cinfo td{
+    /* width: 200px; */
+    height:40px;
+    /* border: 1px solid black; */
+    text-align: start;
+    padding-left: 10px;
+}
+.int{
+    color: white;
+    outline: none;
+    height: 30px;
+    width: 200px;
+    border-width: 90%;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid white;
+}
+textarea{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.submit{
+    padding-left: 10px;
+}
+.submit a{
+    margin-top: 10px;
+    height:50px;
+    width: 120px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orange;
+    text-decoration: none;
+    color: orange;
+    transition: all ease 0.5s;
+    scale: 0.92
+}
+.submit a:hover{
+    color:white;
+    background-color: orange;
+    border: 1px solid white;
+    scale: 1.04;
+}

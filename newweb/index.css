@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.logo_img{
+    height: 40px;
+    
+}
+
+.logo_img img{
+    height: 80%;
+    padding-left: 10px;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+    padding-right: 10px;
+}
+.ele{
+    text-decoration: none;
+    color: black;
+}
+.ele:hover{
+    color: orange;
+}
+
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.box-left{
+    height: 300px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.home-h1{
+    font-size: 45px;
+    height: 50px;
+    width: 350px;
+    padding-left: 10px;
+    padding-top: 45px;
+}
+.home-h3{
+    height: 0px;
+    width: 350px;
+    padding-left: 10px;
+}
+.home-p{
+    width: 350px;
+    padding-left: 10px;
+    text-align: justify;
+}
+.button{
+    width: 370px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.btn{
+    height: 50px;
+    border: 2px solid black;
+    align-items: center;
+    text-decoration: none;
+    font-size: 17px;
+    gap: 10px;
+
+}
+.btn1{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: white;  
+    border-radius: 50px;
+}
+.btn2{
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    color: black;  
+    border-radius: 50px;
+}
+.box-right{
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 300px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: bg 20s infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@keyframes bg {
+    0%{
+        background-image: url('image.jpg');
+    }
+    20%{
+        background-image: url('img1.jpg');
+    }
+    40%{
+        background-image: url('img2.jpg');
+    }
+    60%{
+        background-image: url('img3.jpg');
+    }
+    80%{
+        background-image: url('img4.jpg');
+    }
+    100%{
+        background-image: url('img5.jpg');
+    }
+}
+.footer{
+    width: 99vw;
+    opacity: 50%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.d-footer h1{
+    text-align: center;
+}
+.d-footer p{
+    width: 90vw;
+    text-align: justify;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    gap: 10px;
+}
+.icon{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
